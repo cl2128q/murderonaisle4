@@ -417,6 +417,60 @@
         "name": "cerealkiller.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MeatCounter.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MeatCounter.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Ring.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ring.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "IcecreamFootprints.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "IcecreamFootprints.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Cashier.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Cashier.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Janitor.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Janitor.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Mop.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Mop.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

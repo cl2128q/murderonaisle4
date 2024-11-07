@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.35269049347712395,
+    "zoomFactor": 0.3526904934771253,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -35,7 +35,7 @@
       "persistentUuid": "a456055b-0090-4e36-b3b6-85ed81702d74",
       "width": 384,
       "x": 1536,
-      "y": 192,
+      "y": 320,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -52,7 +52,7 @@
       "persistentUuid": "908910de-b527-49a2-81cd-1b06be29bb56",
       "width": 384,
       "x": 1152,
-      "y": 192,
+      "y": 320,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -171,7 +171,7 @@
       "persistentUuid": "80d489cc-88a7-4707-84ff-6822d65476ff",
       "width": 256,
       "x": 0,
-      "y": 160,
+      "y": 0,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -188,7 +188,7 @@
       "persistentUuid": "98a384ec-43aa-49ce-ae39-9416273a00f9",
       "width": 256,
       "x": 256,
-      "y": 160,
+      "y": 0,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -205,7 +205,7 @@
       "persistentUuid": "6b68ad13-77d4-417a-a5f1-fc910881982b",
       "width": 256,
       "x": 512,
-      "y": 160,
+      "y": 0,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -222,7 +222,7 @@
       "persistentUuid": "ddf28b1b-3e9f-4000-ab81-19ecdedf082e",
       "width": 256,
       "x": 768,
-      "y": 160,
+      "y": 0,
       "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
@@ -255,8 +255,8 @@
       "name": "Butcher",
       "persistentUuid": "6e65bb5f-63a5-467b-a4bb-576c809ef39f",
       "width": 256,
-      "x": 1664,
-      "y": 0,
+      "x": 1600,
+      "y": 32,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -290,6 +290,107 @@
       "x": -32,
       "y": 736,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "MeatCounter",
+      "persistentUuid": "c86f937c-9508-45d3-b45d-280c178d58ab",
+      "width": 0,
+      "x": 1344,
+      "y": 0,
+      "zOrder": 15,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Bracelet",
+      "persistentUuid": "7d18f44e-18b9-4f42-b09a-2169a221c5a4",
+      "width": 64,
+      "x": 512,
+      "y": 288,
+      "zOrder": 16,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 335,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Footprint",
+      "persistentUuid": "7fc5591e-2fc8-4126-8324-4a6ef6d6ca12",
+      "width": 64,
+      "x": 309,
+      "y": 267,
+      "zOrder": 17,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 337,
+      "customSize": true,
+      "depth": 0,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Footprint2",
+      "persistentUuid": "151e181c-2d84-400b-8888-1f2a729aceb5",
+      "width": 64,
+      "x": 278,
+      "y": 342,
+      "zOrder": 18,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Employee",
+      "persistentUuid": "b2b4a2ee-4867-487f-9943-ada04b0e8712",
+      "width": 256,
+      "x": 544,
+      "y": 800,
+      "zOrder": 19,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 256,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Janitor",
+      "persistentUuid": "5c690241-fc6b-4d0e-97d0-977695d9ed98",
+      "width": 256,
+      "x": 992,
+      "y": 96,
+      "zOrder": 20,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -1650,6 +1751,426 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "MeatCounter",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "MeatCounter.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 5,
+                        "y": 0
+                      },
+                      {
+                        "x": 315,
+                        "y": 0
+                      },
+                      {
+                        "x": 315,
+                        "y": 315
+                      },
+                      {
+                        "x": 5,
+                        "y": 315
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Bracelet",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Ring.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 45,
+                        "y": 25
+                      },
+                      {
+                        "x": 270,
+                        "y": 25
+                      },
+                      {
+                        "x": 270,
+                        "y": 265
+                      },
+                      {
+                        "x": 45,
+                        "y": 265
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Footprint",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "IcecreamFootprints.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 155
+                      },
+                      {
+                        "x": 465,
+                        "y": 155
+                      },
+                      {
+                        "x": 465,
+                        "y": 380
+                      },
+                      {
+                        "x": 80,
+                        "y": 380
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Footprint2",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "IcecreamFootprints.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 155
+                      },
+                      {
+                        "x": 465,
+                        "y": 155
+                      },
+                      {
+                        "x": 465,
+                        "y": 380
+                      },
+                      {
+                        "x": 80,
+                        "y": 380
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Employee",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Cashier.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 15
+                      },
+                      {
+                        "x": 215,
+                        "y": 15
+                      },
+                      {
+                        "x": 215,
+                        "y": 315
+                      },
+                      {
+                        "x": 100,
+                        "y": 315
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Janitor",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Janitor.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 100,
+                        "y": 15
+                      },
+                      {
+                        "x": 215,
+                        "y": 15
+                      },
+                      {
+                        "x": 215,
+                        "y": 315
+                      },
+                      {
+                        "x": 100,
+                        "y": 315
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mop",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Mop.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 55,
+                        "y": 15
+                      },
+                      {
+                        "x": 255,
+                        "y": 15
+                      },
+                      {
+                        "x": 255,
+                        "y": 305
+                      },
+                      {
+                        "x": 55,
+                        "y": 305
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -1657,6 +2178,12 @@
     "children": [
       {
         "objectName": "floor"
+      },
+      {
+        "objectName": "Employee"
+      },
+      {
+        "objectName": "Janitor"
       },
       {
         "objectName": "shelf"
@@ -1696,6 +2223,21 @@
       },
       {
         "objectName": "CerealKiller"
+      },
+      {
+        "objectName": "MeatCounter"
+      },
+      {
+        "objectName": "Bracelet"
+      },
+      {
+        "objectName": "Footprint"
+      },
+      {
+        "objectName": "Footprint2"
+      },
+      {
+        "objectName": "Mop"
       }
     ]
   },
