@@ -327,6 +327,24 @@
         "name": "New Piskel (15).png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "VictimsFiance.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "VictimsFiance.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Butcher.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Butcher.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
