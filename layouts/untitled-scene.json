@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4598521426736349,
+    "zoomFactor": 0.2531414001298632,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -130,12 +130,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
+      "height": 1280,
       "keepRatio": true,
       "layer": "floor",
       "name": "floor",
       "persistentUuid": "f97bed7f-d9c0-4f38-8598-329115f6cd7a",
-      "width": 1920,
+      "width": 2208,
       "x": 0,
       "y": 0,
       "zOrder": 2,
@@ -1383,7 +1383,17 @@
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
-      "conditions": [],
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Up"
+          ]
+        }
+      ],
       "actions": [
         {
           "type": {
@@ -1393,7 +1403,88 @@
             "MaleCharacter1",
             "Animation",
             "=",
-            "\"LastPressedKey()\""
+            "\"Walking Up\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Down"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "Animation",
+            "=",
+            "\"Walking Down\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Left"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "Animation",
+            "=",
+            "\"Walking Left\""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "KeyPressed"
+          },
+          "parameters": [
+            "",
+            "Right"
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "Animation",
+            "=",
+            "\"Walking Right\""
           ]
         }
       ]
