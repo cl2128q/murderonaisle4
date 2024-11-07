@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2531414001298632,
+    "zoomFactor": 0.35269049347712395,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -36,7 +36,7 @@
       "width": 384,
       "x": 1536,
       "y": 192,
-      "zOrder": 1,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -53,7 +53,7 @@
       "width": 384,
       "x": 1152,
       "y": 192,
-      "zOrder": 1,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -69,8 +69,8 @@
       "persistentUuid": "2baa567d-2f48-4fbf-989d-68da2c1bf7e7",
       "width": 384,
       "x": 0,
-      "y": 704,
-      "zOrder": 1,
+      "y": 544,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -78,7 +78,7 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 0,
+      "depth": 1,
       "height": 384,
       "keepRatio": true,
       "layer": "",
@@ -86,8 +86,8 @@
       "persistentUuid": "4b6c8d19-4e66-46e5-b810-e7c10e00e7e9",
       "width": 384,
       "x": 384,
-      "y": 704,
-      "zOrder": 1,
+      "y": 544,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -104,7 +104,7 @@
       "width": 384,
       "x": 1152,
       "y": 704,
-      "zOrder": 1,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -121,7 +121,7 @@
       "width": 384,
       "x": 1536,
       "y": 704,
-      "zOrder": 1,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -138,7 +138,7 @@
       "width": 2208,
       "x": 0,
       "y": 0,
-      "zOrder": 2,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -153,9 +153,9 @@
       "name": "MaleCharacter1",
       "persistentUuid": "b21d61be-80e4-4d18-ab6b-16ee72c21d1f",
       "width": 128,
-      "x": 800,
-      "y": 544,
-      "zOrder": 4,
+      "x": 960,
+      "y": 440,
+      "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -172,7 +172,7 @@
       "width": 256,
       "x": 0,
       "y": 160,
-      "zOrder": 5,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -189,7 +189,7 @@
       "width": 256,
       "x": 256,
       "y": 160,
-      "zOrder": 6,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -223,7 +223,7 @@
       "width": 256,
       "x": 768,
       "y": 160,
-      "zOrder": 8,
+      "zOrder": 7,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -265,14 +265,19 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "shelf",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "NewSprite",
@@ -302,11 +307,11 @@
                     [
                       {
                         "x": 0,
-                        "y": 7
+                        "y": 21
                       },
                       {
                         "x": 64,
-                        "y": 7
+                        "y": 20
                       },
                       {
                         "x": 64,
@@ -463,7 +468,7 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "94c403c5d43a4c05c556cd38d22a3b120b7bb26ede37dd2998802744b8e95a24",
       "name": "MaleCharacter1",
       "type": "Sprite",
@@ -485,6 +490,10 @@
           "movementAngleOffset": 0,
           "rotateObject": false,
           "viewpoint": "TopDown"
+        },
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
         }
       ],
       "animations": [
@@ -515,11 +524,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -551,11 +560,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -587,11 +596,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -635,11 +644,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -671,11 +680,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -707,11 +716,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -755,11 +764,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -791,11 +800,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -827,11 +836,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -875,11 +884,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -911,11 +920,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -947,11 +956,11 @@
                     [
                       {
                         "x": 2,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
-                        "y": 1
+                        "y": 8.5
                       },
                       {
                         "x": 14,
@@ -971,14 +980,19 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "DeadBody",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1006,20 +1020,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 20,
+                        "y": 89.5
                       },
                       {
-                        "x": 256,
-                        "y": 0
+                        "x": 234,
+                        "y": 88.5
                       },
                       {
-                        "x": 256,
-                        "y": 256
+                        "x": 232.5,
+                        "y": 250.5
                       },
                       {
-                        "x": 0,
-                        "y": 256
+                        "x": 19.5,
+                        "y": 252.5
                       }
                     ]
                   ]
@@ -1031,14 +1045,19 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "MintChoc",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1066,20 +1085,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 22.5,
+                        "y": 108.5
                       },
                       {
-                        "x": 256,
-                        "y": 0
+                        "x": 231.5,
+                        "y": 108.5
                       },
                       {
-                        "x": 256,
-                        "y": 256
+                        "x": 238.5,
+                        "y": 254
                       },
                       {
-                        "x": 0,
-                        "y": 256
+                        "x": 19.5,
+                        "y": 253.5
                       }
                     ]
                   ]
@@ -1091,14 +1110,19 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "CookieDough",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1126,20 +1150,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 18.5,
+                        "y": 92
                       },
                       {
-                        "x": 256,
-                        "y": 0
+                        "x": 235.5,
+                        "y": 91.5
                       },
                       {
-                        "x": 256,
-                        "y": 256
+                        "x": 236.5,
+                        "y": 250.5
                       },
                       {
-                        "x": 0,
-                        "y": 256
+                        "x": 20,
+                        "y": 248
                       }
                     ]
                   ]
@@ -1151,14 +1175,19 @@
       ]
     },
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Neo",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "YSort",
+          "type": "YSort::YSort"
+        }
+      ],
       "animations": [
         {
           "name": "",
@@ -1186,20 +1215,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 22,
+                        "y": 91.5
                       },
                       {
-                        "x": 256,
-                        "y": 0
+                        "x": 234.5,
+                        "y": 90
                       },
                       {
-                        "x": 256,
-                        "y": 256
+                        "x": 235.5,
+                        "y": 255.5
                       },
                       {
-                        "x": 0,
-                        "y": 256
+                        "x": 20,
+                        "y": 248.5
                       }
                     ]
                   ]
@@ -1488,6 +1517,62 @@
           ]
         }
       ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "shelf",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "Neo",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "DeadBody",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "MintChoc",
+            "no"
+          ]
+        },
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "CookieDough",
+            "no"
+          ]
+        }
+      ]
     }
   ],
   "layers": [
@@ -1567,6 +1652,39 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 200,
+      "ambientLightColorG": 200,
+      "ambientLightColorR": 200,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 3,
+      "cameraType": "",
+      "followBaseLayerCamera": false,
+      "isLightingLayer": false,
+      "isLocked": false,
+      "name": "Shelves",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": [
+        {
+          "effectType": "Scene3D::HemisphereLight",
+          "name": "3D Light",
+          "doubleParameters": {
+            "elevation": 45,
+            "intensity": 1,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "groundColor": "64;64;64",
+            "skyColor": "255;255;255",
+            "top": "Y-"
+          },
+          "booleanParameters": {}
+        }
+      ]
     }
   ],
   "behaviorsSharedData": [
@@ -1597,6 +1715,10 @@
     {
       "name": "TopDownMovement",
       "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+    },
+    {
+      "name": "YSort",
+      "type": "YSort::YSort"
     }
   ]
 }
