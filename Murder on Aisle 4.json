@@ -300,6 +300,33 @@
         "name": "freezersprite.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (17).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (17).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (16).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (16).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (15).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (15).png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
