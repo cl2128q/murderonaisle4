@@ -102,7 +102,7 @@
       "name": "shelf",
       "persistentUuid": "a73749ab-4245-4933-99ec-0b95563b614b",
       "width": 384,
-      "x": 1152,
+      "x": 928,
       "y": 704,
       "zOrder": 7,
       "numberProperties": [],
@@ -119,7 +119,7 @@
       "name": "shelf",
       "persistentUuid": "12fcc49d-eb9f-419a-b52e-d87ed358ff9d",
       "width": 384,
-      "x": 1536,
+      "x": 1312,
       "y": 704,
       "zOrder": 7,
       "numberProperties": [],
@@ -238,7 +238,7 @@
       "name": "VictimsFiance",
       "persistentUuid": "db470212-e8b6-4047-9960-393930883a7e",
       "width": 256,
-      "x": 1344,
+      "x": 1248,
       "y": 416,
       "zOrder": 14,
       "numberProperties": [],
@@ -271,7 +271,7 @@
       "name": "BusinessPartner",
       "persistentUuid": "5bb87674-5e87-4a38-9e50-39defd9191bb",
       "width": 0,
-      "x": 1664,
+      "x": 1408,
       "y": 832,
       "zOrder": 13,
       "numberProperties": [],
@@ -2181,6 +2181,101 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "5faf2b0415c271fa6e747283ed36297a95f04d2b6c477a7b011775fa6fb444ee",
+      "name": "StartButton",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 16,
+        "RightPadding": 16,
+        "PressedLabelOffsetY": 3,
+        "BottomPadding": 32,
+        "TopPadding": 32,
+        "HoveredFadeOutDuration": 0.25
+      },
+      "childrenContent": {
+        "Hovered": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button With Shadow_Hovered.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Idle": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button With Shadow_Idle.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        },
+        "Label": {
+          "bold": false,
+          "italic": false,
+          "smoothed": true,
+          "underlined": false,
+          "string": "StartGame",
+          "font": "CantoraOne-Regular.ttf",
+          "textAlignment": "center",
+          "characterSize": 40,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "StartGame",
+            "font": "CantoraOne-Regular.ttf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "color": "255;255;255"
+          }
+        },
+        "Pressed": {
+          "bottomMargin": 16,
+          "height": 69,
+          "leftMargin": 16,
+          "rightMargin": 16,
+          "texture": "Red Button With Shadow_Pressed.png",
+          "tiled": true,
+          "topMargin": 16,
+          "width": 192
+        }
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": []
     }
   ],
   "objectsFolderStructure": {
@@ -2188,6 +2283,9 @@
     "children": [
       {
         "objectName": "floor"
+      },
+      {
+        "objectName": "NewSprite"
       },
       {
         "objectName": "Employee"
@@ -2248,6 +2346,9 @@
       },
       {
         "objectName": "Mop"
+      },
+      {
+        "objectName": "StartButton"
       }
     ]
   },
