@@ -282,6 +282,24 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Tiny Characters/males/b6706d7c3b73a703e0ba1cf4a540dd3f183b7cd507f4ab3924d87355fdd14194_Male Character 1_Walking Up_3.png",
           "name": "Male Character 1_Walking Up_3.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (14).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (14).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "freezersprite.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezersprite.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
