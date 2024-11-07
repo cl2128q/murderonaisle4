@@ -990,7 +990,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "freezersprite.png",
+                  "image": "freezersprite (1).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1010,16 +1010,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 256,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 256,
+                        "y": 256
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 256
                       }
                     ]
                   ]
@@ -1050,7 +1050,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel (17).png",
+                  "image": "New Piskel (19).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1070,16 +1070,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 256,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 256,
+                        "y": 256
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 256
                       }
                     ]
                   ]
@@ -1110,7 +1110,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel (16).png",
+                  "image": "New Piskel (17)2.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1130,16 +1130,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 256,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 256,
+                        "y": 256
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 256
                       }
                     ]
                   ]
@@ -1170,7 +1170,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "New Piskel (15).png",
+                  "image": "New Piskel (18).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1190,16 +1190,16 @@
                         "y": 0
                       },
                       {
-                        "x": 64,
+                        "x": 256,
                         "y": 0
                       },
                       {
-                        "x": 64,
-                        "y": 64
+                        "x": 256,
+                        "y": 256
                       },
                       {
                         "x": 0,
-                        "y": 64
+                        "y": 256
                       }
                     ]
                   ]

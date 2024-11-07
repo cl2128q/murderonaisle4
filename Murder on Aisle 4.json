@@ -345,6 +345,42 @@
         "name": "Butcher.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (19).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (19).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (18).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (18).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "freezersprite (1).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "freezersprite (1).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "New Piskel (17)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "New Piskel (17)2.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
