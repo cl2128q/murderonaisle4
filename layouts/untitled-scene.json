@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.07420788384558097,
+    "zoomFactor": 0.2890516203134959,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -366,8 +366,8 @@
       "name": "Footprint2",
       "persistentUuid": "151e181c-2d84-400b-8888-1f2a729aceb5",
       "width": 64,
-      "x": 438,
-      "y": 1238,
+      "x": 406,
+      "y": 1226,
       "zOrder": 18,
       "numberProperties": [],
       "stringProperties": [],
@@ -416,8 +416,8 @@
       "name": "Will",
       "persistentUuid": "b8aecd94-37e8-4118-b38c-12aae523a7c6",
       "width": 0,
-      "x": 513,
-      "y": 1729,
+      "x": 481,
+      "y": 1793,
       "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
@@ -449,7 +449,7 @@
       "name": "Description",
       "persistentUuid": "0a7f417a-af91-4c8d-9dc3-e79bbafcf953",
       "width": 928,
-      "x": 576,
+      "x": 480,
       "y": 800,
       "zOrder": 23,
       "numberProperties": [],
@@ -465,7 +465,7 @@
       "layer": "Dialogue",
       "name": "DialogueText",
       "persistentUuid": "0dd58744-7b7f-441e-bb27-e43dc1fdd3d3",
-      "width": 608,
+      "width": 928,
       "x": 480,
       "y": 800,
       "zOrder": 30,
@@ -475,15 +475,16 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 72,
       "keepRatio": true,
       "layer": "Dialogue",
       "name": "DialogueOptions",
       "persistentUuid": "2680c339-2b21-4fb4-a4c7-897ddbd08f37",
-      "width": 0,
+      "width": 928,
       "x": 480,
-      "y": 896,
+      "y": 928,
       "zOrder": 30,
       "numberProperties": [],
       "stringProperties": [],
@@ -500,8 +501,8 @@
       "opacity": 179,
       "persistentUuid": "ae356021-4211-47ce-bdf9-a7cdf7781049",
       "width": 1000,
-      "x": -200,
-      "y": 608,
+      "x": 448,
+      "y": 736,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -533,8 +534,8 @@
       "name": "Mop",
       "persistentUuid": "1ddac2c0-d748-47be-87e9-b3f9473b6e37",
       "width": 200,
-      "x": 864,
-      "y": 504,
+      "x": 376,
+      "y": 608,
       "zOrder": 32,
       "numberProperties": [],
       "stringProperties": [],
@@ -1058,6 +1059,54 @@
       "x": -672,
       "y": 2016,
       "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "StartMenu",
+      "name": "ControlText1",
+      "persistentUuid": "4385452c-e9a1-4d74-b5f1-d4c96ceb515a",
+      "width": 0,
+      "x": 480,
+      "y": 956,
+      "zOrder": 83,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "StartMenu",
+      "name": "ControlText2",
+      "persistentUuid": "9afc6617-2109-45e1-a8ea-c7851dcba7f6",
+      "width": 0,
+      "x": 144,
+      "y": 956,
+      "zOrder": 84,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "Dialogue",
+      "name": "DialogueControlText",
+      "persistentUuid": "b1dafff4-ed92-4b0c-9637-ecf34334da1a",
+      "width": 0,
+      "x": 1504,
+      "y": 756,
+      "zOrder": 85,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -3063,7 +3112,7 @@
       "string": "Placeholder Text",
       "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 80,
+      "characterSize": 50,
       "color": {
         "b": 0,
         "g": 0,
@@ -3087,7 +3136,7 @@
         "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 80,
+        "characterSize": 50,
         "color": "0;0;0"
       }
     },
@@ -3105,7 +3154,7 @@
       "string": "Two different\noptions",
       "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
       "textAlignment": "left",
-      "characterSize": 60,
+      "characterSize": 50,
       "color": {
         "b": 0,
         "g": 0,
@@ -3129,7 +3178,7 @@
         "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
         "textAlignment": "left",
         "verticalTextAlignment": "top",
-        "characterSize": 60,
+        "characterSize": 50,
         "color": "0;0;0"
       }
     },
@@ -4236,6 +4285,132 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ControlText1",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "E to Interact",
+      "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "E to Interact",
+        "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "ControlText2",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "WASD to Move",
+      "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "WASD to Move",
+        "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "DialogueControlText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Space = Next Line\nUp + Down = Select Reply\nE = Confirm Reply",
+      "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "Space = Next Line\nUp + Down = Select Reply\nE = Confirm Reply",
+        "font": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "color": "0;0;0"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4243,6 +4418,12 @@
     "children": [
       {
         "objectName": "floor"
+      },
+      {
+        "objectName": "ControlText1"
+      },
+      {
+        "objectName": "ControlText2"
       },
       {
         "objectName": "LosingScreenText"
@@ -4368,6 +4549,9 @@
         "objectName": "Dialogue_Box"
       },
       {
+        "objectName": "DialogueControlText"
+      },
+      {
         "objectName": "QuitButton"
       },
       {
@@ -4476,6 +4660,14 @@
             "Opacity",
             "=",
             "0"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DialogueControlText"
           ]
         }
       ],
@@ -4859,7 +5051,7 @@
                 "Description",
                 "Text",
                 "=",
-                "\"This is the will of the victim. The financée is mentioned on the will, all properties and possession will go to her.\""
+                "\"This is the will of the victim. The financée is the only person mentioned on the will, all properties and possessions will go to her.\""
               ]
             }
           ]
@@ -5051,7 +5243,7 @@
                 "Description",
                 "Text",
                 "=",
-                "\"This mop has been discarded? There is blood on it!? This must have been used to clean up the crime scene!\""
+                "\"This mop has been tossed aside.. And there's blood on it!? This must have been used to clean up the crime scene!\""
               ]
             }
           ]
@@ -5267,7 +5459,7 @@
                 "Description",
                 "Text",
                 "=",
-                "\"This must be the murderer's footprints.. they are covered in ice cream.\""
+                "\"This must be the murderer's footprints.. They stepped in ice cream. It's a size 9 footprint.\""
               ]
             }
           ]
@@ -5563,6 +5755,15 @@
             },
             {
               "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogueControlText",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "ResetTimer"
               },
               "parameters": [
@@ -5639,6 +5840,15 @@
               },
               "parameters": [
                 "DialogueText",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "DialogueControlText",
                 ""
               ]
             },
@@ -5725,6 +5935,14 @@
           },
           "parameters": [
             "DialogueText"
+          ]
+        },
+        {
+          "type": {
+            "value": "Cache"
+          },
+          "parameters": [
+            "DialogueControlText"
           ]
         }
       ]
