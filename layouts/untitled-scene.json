@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.0847348914661794,
+    "zoomFactor": 0.07420788384558097,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -992,6 +992,72 @@
       "x": -128,
       "y": 1408,
       "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3168,
+      "keepRatio": true,
+      "layer": "Collision",
+      "name": "collision",
+      "persistentUuid": "68b6f22e-bba5-432a-a03f-ccf2f19b4367",
+      "width": 64,
+      "x": -352,
+      "y": -416,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 3168,
+      "keepRatio": true,
+      "layer": "Collision",
+      "name": "collision",
+      "persistentUuid": "a2f57685-4945-4c58-b1dd-b42a0d79b5ff",
+      "width": 64,
+      "x": 2464,
+      "y": -352,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "Collision",
+      "name": "collision",
+      "persistentUuid": "358dcee7-3a8b-44f1-b91b-adaf0dfbd763",
+      "width": 3456,
+      "x": -544,
+      "y": -4,
+      "zOrder": 82,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 100,
+      "layer": "Collision",
+      "name": "collision",
+      "persistentUuid": "cf8c8bf7-d8af-4b20-bf0e-6d00781e43b2",
+      "width": 3456,
+      "x": -672,
+      "y": 2016,
+      "zOrder": 82,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4109,6 +4175,67 @@
         "characterSize": 200,
         "color": "104;7;7"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": false,
+      "assetStoreId": "",
+      "name": "collision",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "collision",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "collision",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 0
+                      },
+                      {
+                        "x": 64,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -4248,6 +4375,9 @@
       },
       {
         "objectName": "RickOption"
+      },
+      {
+        "objectName": "collision"
       }
     ]
   },
@@ -4336,6 +4466,17 @@
             "",
             "\"WinningScreen\""
           ]
+        },
+        {
+          "type": {
+            "value": "OpacityCapability::OpacityBehavior::SetValue"
+          },
+          "parameters": [
+            "collision",
+            "Opacity",
+            "=",
+            "0"
+          ]
         }
       ],
       "events": [
@@ -4370,6 +4511,22 @@
                 "Description"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SeparateFromObjects"
+          },
+          "parameters": [
+            "MaleCharacter1",
+            "collision",
+            "no"
           ]
         }
       ]
@@ -6450,7 +6607,7 @@
       "isLocked": false,
       "name": "Shelves",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -6483,7 +6640,7 @@
       "isLocked": false,
       "name": "ZoomLayer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {

@@ -821,6 +821,15 @@
         "name": "New Piskel.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/collision.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "collision",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
