@@ -1,0 +1,32 @@
+[
+	{
+		"title": "FianceeStart",
+		"tags": "",
+		"body": "Fiancee: hello i am dill's Fiancee\nFiancee: I cant believe what happened\nFiancee: its awful\n[[ answer: good terms |goodterms]]\n[[ answer: when |when]]",
+		"position": {
+			"x": 341,
+			"y": 179
+		},
+		"colorID": 0
+	},
+	{
+		"title": "goodterms",
+		"tags": "",
+		"body": "we were on good terms",
+		"position": {
+			"x": 462,
+			"y": -40
+		},
+		"colorID": 0
+	},
+	{
+		"title": "when",
+		"tags": "",
+		"body": "i arrived 20 mins ago",
+		"position": {
+			"x": 682,
+			"y": -40
+		},
+		"colorID": 0
+	}
+]

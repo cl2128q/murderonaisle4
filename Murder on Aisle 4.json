@@ -530,6 +530,68 @@
         "name": "NewPanelSprite",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/fiancee dialogue tree.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/fiancee dialogue tree.json\"}",
+        "name": "fiancee dialogue tree",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/fiancee_dialogue.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/fiancee_dialogue.json\"}",
+        "name": "fiancee_dialogue",
+        "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/dialogue.json",
+        "kind": "json",
+        "metadata": "{\"extension\":\".json\",\"localFilePath\":\"assets/dialogue.json\"}",
+        "name": "dialogue",
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite8",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/VT323-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

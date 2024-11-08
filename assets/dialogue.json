@@ -1,0 +1,102 @@
+[
+	{
+		"title": "FianceeStart",
+		"tags": "",
+		"body": "Fiancee: hello i am dill's Fiancee\nFiancee: I cant believe what happened\nFiancee: its awful\n[[ good terms |goodterms]]\n[[ when |when]]",
+		"position": {
+			"x": 347,
+			"y": 185
+		},
+		"colorID": 0
+	},
+	{
+		"title": "goodterms",
+		"tags": "",
+		"body": "Fiancee: yes but recently we had an argument\nFiancee: it wasnt bad enough for me to kill him! i would never do anything like that.",
+		"position": {
+			"x": 223,
+			"y": 418
+		},
+		"colorID": 0
+	},
+	{
+		"title": "when",
+		"tags": "",
+		"body": "Fiancee: I arrived 20 minutes ago.",
+		"position": {
+			"x": 463,
+			"y": 421
+		},
+		"colorID": 0
+	},
+	{
+		"title": "ButcherStart",
+		"tags": "",
+		"body": "Butcher: I cant believe there's been a murder in our store!\nButcher: What horror! I really hope you solve it.\n[[ what's in your hand |inhand]]\n[[ when did you hear about the murder |whendidyouhear]]",
+		"position": {
+			"x": 850,
+			"y": 183
+		},
+		"colorID": 0
+	},
+	{
+		"title": "inhand",
+		"tags": "",
+		"body": "Butcher: In my hand? It's my trusty cleaver of course!\nButcher: Why do you ask?\n[[ can i take a look at it? |takealook]]\n[[ never mind. |nevermind]]",
+		"position": {
+			"x": 722,
+			"y": 420
+		},
+		"colorID": 0
+	},
+	{
+		"title": "whendidyouhear",
+		"tags": "",
+		"body": "Butcher: Fiancee told me around 10 minutes ago.",
+		"position": {
+			"x": 968,
+			"y": 423
+		},
+		"colorID": 0
+	},
+	{
+		"title": "takealook",
+		"tags": "",
+		"body": "There is a faint smear of blood on the knife.\n[[ take sample |takesample]]\n[[ give back |giveback]]",
+		"position": {
+			"x": 604,
+			"y": 682
+		},
+		"colorID": 0
+	},
+	{
+		"title": "nevermind",
+		"tags": "",
+		"body": "",
+		"position": {
+			"x": 830,
+			"y": 679
+		},
+		"colorID": 0
+	},
+	{
+		"title": "takesample",
+		"tags": "",
+		"body": "The blood on the cleaver matches the victim's blood.",
+		"position": {
+			"x": 437,
+			"y": 917
+		},
+		"colorID": 0
+	},
+	{
+		"title": "giveback",
+		"tags": "",
+		"body": "Butcher: see you around!",
+		"position": {
+			"x": 711,
+			"y": 910
+		},
+		"colorID": 0
+	}
+]
