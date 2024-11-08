@@ -526,7 +526,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewPanelSprite.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/NewPanelSprite.png\"}",
         "name": "NewPanelSprite",
         "smoothed": true,
         "userAdded": false
@@ -592,6 +592,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/8612da6519a39bab40fb3fb527dd7574679e45f603b2be582cf2d47a6b12b93f_VT323-Regular.ttf",
           "name": "gdevelop-asset-store"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "style-3-Meyer Lemon.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "style-3-Meyer Lemon.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "style-3-Meyer Lemon2.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "style-3-Meyer Lemon2.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "style-3-Blueberry.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "style-3-Blueberry.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "style-3-Eggplant.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "style-3-Eggplant.PNG",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
