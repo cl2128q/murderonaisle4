@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.20746499616301672,
+    "zoomFactor": 0.18169065978486523,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -552,7 +552,7 @@
       "persistentUuid": "4c2ca046-c71a-4441-a2aa-fa410f06de8a",
       "width": 230,
       "x": 896,
-      "y": 544,
+      "y": 672,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -568,8 +568,8 @@
       "name": "QuitButton",
       "persistentUuid": "435dc832-e985-4b28-8386-33aa34d8ad00",
       "width": 230,
-      "x": 890,
-      "y": 685,
+      "x": 896,
+      "y": 813,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -922,8 +922,8 @@
       "name": "TitleText",
       "persistentUuid": "86c100f5-8d68-49de-a4f0-da1e1e6dc37d",
       "width": 0,
-      "x": 436,
-      "y": 265,
+      "x": 443,
+      "y": 440,
       "zOrder": 81,
       "numberProperties": [],
       "stringProperties": [],
@@ -1107,6 +1107,56 @@
       "x": 1504,
       "y": 756,
       "zOrder": 85,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 400,
+      "keepRatio": true,
+      "layer": "StartMenu",
+      "name": "priceco",
+      "persistentUuid": "39afcb2d-56a8-4982-b7de-e434d8983447",
+      "width": 800,
+      "x": 608,
+      "y": -16,
+      "zOrder": 86,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "StartMenu",
+      "name": "priceco_text",
+      "persistentUuid": "d19f579d-c45e-4a18-9b28-541bd0a1b8c3",
+      "width": 0,
+      "x": 800,
+      "y": 128,
+      "zOrder": 87,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "keepRatio": true,
+      "layer": "StartMenu",
+      "name": "supermarket_text",
+      "persistentUuid": "447dc53a-c680-4648-b1cb-a973c157498f",
+      "width": 360,
+      "x": 957,
+      "y": 269,
+      "zOrder": 88,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -4411,6 +4461,150 @@
         "characterSize": 50,
         "color": "0;0;0"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "priceco",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "priceco_logo.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "priceco_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "PRICECO",
+      "font": "44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 100,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 255
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "PRICECO",
+        "font": "44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 100,
+        "color": "255;0;0"
+      }
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "supermarket_text",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "SUPERMARKET",
+      "font": "44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+      "textAlignment": "left",
+      "characterSize": 50,
+      "color": {
+        "b": 199,
+        "g": 83,
+        "r": 17
+      },
+      "content": {
+        "bold": false,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": false,
+        "italic": false,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "0;0;0",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "SUPERMARKET",
+        "font": "44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+        "textAlignment": "left",
+        "verticalTextAlignment": "top",
+        "characterSize": 50,
+        "color": "17;83;199"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -4418,6 +4612,9 @@
     "children": [
       {
         "objectName": "floor"
+      },
+      {
+        "objectName": "supermarket_text"
       },
       {
         "objectName": "ControlText1"
@@ -4535,6 +4732,12 @@
       },
       {
         "objectName": "TitleText"
+      },
+      {
+        "objectName": "priceco"
+      },
+      {
+        "objectName": "priceco_text"
       },
       {
         "objectName": "ReplayButton"

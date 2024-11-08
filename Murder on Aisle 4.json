@@ -849,6 +849,26 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "priceco_logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "priceco_logo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/CarterOne-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Open Font License/44aceaa249d2ecb8bfe3eb7bedcb17aac44c0f5f13f9f58d85427a5afa7e92f0_CarterOne-Regular.ttf",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

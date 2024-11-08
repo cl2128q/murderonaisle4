@@ -2,27 +2,27 @@
 	{
 		"title": "FianceeStart",
 		"tags": "",
-		"body": "Veronica Baguette: Hello i am Dill's Fiancee\nVeronica Baguette: I can't believe what happened\nVeronica Baguette: It's awful\n[[ good terms |goodterms]]\n[[ when did you see him last |when]]",
+		"body": "Veronica Baguette: I am Dill's Fiancee.\nVeronica Baguette: I can't believe what happened!\nVeronica Baguette: It's awful..\n[[ Were you on good terms? |goodterms]]\n[[ When did you see him last? |when]]",
 		"position": {
 			"x": 346,
-			"y": 183
+			"y": 182
 		},
 		"colorID": 0
 	},
 	{
 		"title": "goodterms",
 		"tags": "",
-		"body": "Veronica Baguette: Yes but recently we had an argument.\nVeronica Baguette: It wasn't bad enough for me to kill him! I would never do anything like that.\n[[ Explain further |talk]]\n[[ Bye |Bye]]",
+		"body": "Veronica Baguette: Yes.. But recently we had an argument.\nVeronica Baguette: It wasn't bad enough for me to kill him! I would never do anything like that.\n[[ Can you explain further? |talk]]\n[[ Thanks. |Bye]]",
 		"position": {
-			"x": 223,
-			"y": 420
+			"x": 222,
+			"y": 419
 		},
 		"colorID": 0
 	},
 	{
 		"title": "when",
 		"tags": "",
-		"body": "Veronica Baguette: I saw Dill a couple hours ago.\n[[ Explain further |explain]]",
+		"body": "Veronica Baguette: I saw Dill a couple hours ago.\n[[ Can you explain further? |explain]]",
 		"position": {
 			"x": 461,
 			"y": 421
@@ -32,7 +32,7 @@
 	{
 		"title": "ButcherStart",
 		"tags": "",
-		"body": "Frank Furter: I cant believe there's been a murder in our store!\nFrank Furter: What horror! I really hope you solve it.\n[[ what's in your hand |inhand]]\n[[ when did you hear about the murder |whendidyouhear]]",
+		"body": "Frank Furter: I can't believe there's been a murder in our store!\nFrank Furter: What horror! I really hope you solve it.\n[[ What's in your hand? |inhand]]\n[[ When did you hear about the murder? |whendidyouhear]]",
 		"position": {
 			"x": 832,
 			"y": 166
@@ -42,30 +42,30 @@
 	{
 		"title": "inhand",
 		"tags": "",
-		"body": "Frank Furter: In my hand?\nIt's my trusty cleaver of course!\nFrank Furter: Why do you ask?\n[[ Can I take a look at it?|takealook]] \n[[ nevermind |nevermind]]",
+		"body": "Frank Furter: In my hand?\nIt's my trusty cleaver of course!\nFrank Furter: Why do you ask?\n[[ Can I take a look at it?|takealook]] \n[[ Never mind. |nevermind]]",
 		"position": {
-			"x": 720,
-			"y": 418
+			"x": 718,
+			"y": 416
 		},
 		"colorID": 8
 	},
 	{
 		"title": "whendidyouhear",
 		"tags": "",
-		"body": "Frank Furter: Fiancee told me around 10 minutes ago.\n[[ For the investigation purposes, what size feet are you? |butcherfeet]]",
+		"body": "Frank Furter: Fiancee told me around 10 minutes ago.\n[[ For the investigation purposes, what shoe size are you? |butcherfeet]]",
 		"position": {
-			"x": 966,
-			"y": 422
+			"x": 965,
+			"y": 421
 		},
 		"colorID": 0
 	},
 	{
 		"title": "takealook",
 		"tags": "",
-		"body": "There is a faint smear of blood on the knife.\n[[ take sample |takesample]]\n[[ give back |giveback]]",
+		"body": "There is a faint smear of blood on the knife.\n[[ Take sample of blood. |takesample]]\n[[ Give back. |giveback]]",
 		"position": {
-			"x": 604,
-			"y": 682
+			"x": 603,
+			"y": 681
 		},
 		"colorID": 0
 	},
@@ -92,10 +92,10 @@
 	{
 		"title": "giveback",
 		"tags": "",
-		"body": "Frank Furter: see you around!",
+		"body": "Frank Furter: See you around!",
 		"position": {
-			"x": 711,
-			"y": 910
+			"x": 710,
+			"y": 909
 		},
 		"colorID": 0
 	},
@@ -132,20 +132,20 @@
 	{
 		"title": "rick question",
 		"tags": "",
-		"body": "Veronica Baguette: We never got along, there was disagreements with Dill's will.\n[[ For the investigation purposes, what size feet are you? |feet]]\n[[ Okay, thank you for the questions |thank you]]",
+		"body": "Veronica Baguette: We never got along, there was disagreements with Dill's will.\n[[ For the investigation purposes, what shoe size are you? |feet]]\n[[ Okay, thank you for your cooperation. |thank you]]",
 		"position": {
-			"x": 45,
-			"y": 1145
+			"x": 44,
+			"y": 1144
 		},
 		"colorID": 0
 	},
 	{
 		"title": "rickq",
 		"tags": "",
-		"body": "Veronica Baguette: Rick is Dill's son. We never got along.\n[[ For the investigation purposes, what size feet are you? |feet]]\n[[ Okay, thank you for the questions |thank you]]",
+		"body": "Veronica Baguette: Rick is Dill's son. We never got along.\n[[ For the investigation purposes, what shoe size are you? |feet]]\n[[ Okay, thank you for your cooperation. |thank you]]",
 		"position": {
-			"x": -367,
-			"y": 1179
+			"x": -369,
+			"y": 1178
 		},
 		"colorID": 0
 	},
@@ -162,20 +162,20 @@
 	{
 		"title": "thank you",
 		"tags": "",
-		"body": "Veronica Baguette: I hope you find the killer!",
+		"body": "Veronica Baguette: Please find the killer!",
 		"position": {
-			"x": -551,
-			"y": 1533
+			"x": -552,
+			"y": 1532
 		},
 		"colorID": 0
 	},
 	{
 		"title": "butcherfeet",
 		"tags": "",
-		"body": "Frank Furter:I am a size 9.\n[[ Thank you for your help. |goodbye]]",
+		"body": "Frank Furter: I am a size 9.\n[[ Thank you for your help. |goodbye]]",
 		"position": {
-			"x": 1126,
-			"y": 666
+			"x": 1125,
+			"y": 665
 		},
 		"colorID": 0
 	},
@@ -224,8 +224,8 @@
 		"tags": "",
 		"body": "Tim Scrubs: I hope you find them!",
 		"position": {
-			"x": 2331,
-			"y": 496
+			"x": 2369,
+			"y": 780
 		},
 		"colorID": 0
 	},
@@ -252,20 +252,20 @@
 	{
 		"title": "Cereal",
 		"tags": "",
-		"body": "Cereal Killer: Hello, I was just selling cereal, but I stumbled across a dead body!\nI swear I don't know anything.\n[[ For the investigation purposes, what size feet are you? |shoes]]\n[[ Elaborate further |more]]",
+		"body": "Cereal Killer: Hello, I was just selling cereal, but I stumbled across a dead body!\nI swear I don't know anything.\n[[ For the investigation purposes, what shoe size are you? |shoes]]\n[[ Elaborate further |more]]",
 		"position": {
-			"x": 3074,
-			"y": 155
+			"x": 3073,
+			"y": 154
 		},
 		"colorID": 0
 	},
 	{
 		"title": "shoes",
 		"tags": "",
-		"body": "Cereal Killer: I am a size 7.\n[[ Thank you for your cooperation |bai]]",
+		"body": "Cereal Killer: I am a size 7.\n[[ Thank you for your cooperation. |bai]]",
 		"position": {
-			"x": 2898,
-			"y": 479
+			"x": 2897,
+			"y": 478
 		},
 		"colorID": 0
 	},
@@ -292,10 +292,10 @@
 	{
 		"title": "Rick",
 		"tags": "",
-		"body": "[[ Did you hear about the murder of PriceCo's CEO?|CEO]]",
+		"body": "Rick Pickleson: Hi, I am a cashier here.\n[[ Did you hear about the murder of PriceCo's CEO?|CEO]]",
 		"position": {
 			"x": 3798,
-			"y": 115
+			"y": 114
 		},
 		"colorID": 0
 	},
@@ -362,10 +362,10 @@
 	{
 		"title": "Benjamin",
 		"tags": "",
-		"body": "[[ How did you know the victim? |bp]]",
+		"body": "Benjamin B. Beans: Hi, I am the CEO's ex-busines partner.\n[[ How did you know the victim? |bp]]",
 		"position": {
 			"x": 4191,
-			"y": 74
+			"y": 72
 		},
 		"colorID": 0
 	},
