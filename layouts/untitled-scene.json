@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.18169065978486523,
+    "zoomFactor": 0.26167741169921954,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -551,8 +551,8 @@
       "name": "StartButton",
       "persistentUuid": "4c2ca046-c71a-4441-a2aa-fa410f06de8a",
       "width": 230,
-      "x": 896,
-      "y": 672,
+      "x": 448,
+      "y": 653,
       "zOrder": 33,
       "numberProperties": [],
       "stringProperties": [],
@@ -568,8 +568,8 @@
       "name": "QuitButton",
       "persistentUuid": "435dc832-e985-4b28-8386-33aa34d8ad00",
       "width": 230,
-      "x": 896,
-      "y": 813,
+      "x": 1306,
+      "y": 653,
       "zOrder": 34,
       "numberProperties": [],
       "stringProperties": [],
@@ -7553,7 +7553,7 @@
       "isLocked": false,
       "name": "SelectMurderer",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -7586,7 +7586,7 @@
       "isLocked": false,
       "name": "WinningScreen",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -7619,7 +7619,7 @@
       "isLocked": false,
       "name": "LoosingScreen",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
@@ -7652,7 +7652,7 @@
       "isLocked": false,
       "name": "Collision",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
