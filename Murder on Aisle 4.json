@@ -830,6 +830,25 @@
         "name": "collision",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "style-3-Green Apple.PNG",
+        "kind": "image",
+        "metadata": "",
+        "name": "style-3-Green Apple.PNG",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "murder-mystery-spooky-midsomer-orchestral-instrumental-theme-147009.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "murder-mystery-spooky-midsomer-orchestral-instrumental-theme-147009.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.2890516203134959,
+    "zoomFactor": 0.20746499616301672,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -493,16 +493,16 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1.953125,
-      "height": 312.5,
+      "depth": 2,
+      "height": 736,
       "keepRatio": true,
       "layer": "Dialogue",
       "name": "Dialogue_Box",
       "opacity": 179,
       "persistentUuid": "ae356021-4211-47ce-bdf9-a7cdf7781049",
-      "width": 1000,
-      "x": 448,
-      "y": 736,
+      "width": 1440,
+      "x": 192,
+      "y": 352,
       "zOrder": 26,
       "numberProperties": [],
       "stringProperties": [],
@@ -630,12 +630,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1088,
+      "height": 1120,
       "keepRatio": true,
       "layer": "SelectMurderer",
       "name": "SelectBackground",
       "persistentUuid": "d1eacfb3-869a-4606-84b9-5c796644b25c",
-      "width": 1920,
+      "width": 2144,
       "x": 0,
       "y": 0,
       "zOrder": 65,
@@ -769,7 +769,7 @@
       "layer": "WinningScreen",
       "name": "WinningBackground",
       "persistentUuid": "aa0981f8-5f05-4de6-ada1-3bba0da8c5f5",
-      "width": 1920,
+      "width": 2112,
       "x": 0,
       "y": 0,
       "zOrder": 73,
@@ -837,7 +837,7 @@
       "layer": "LoosingScreen",
       "name": "LoosingScreenBackground",
       "persistentUuid": "fccf7121-bad4-439b-afb6-dde52d43bd78",
-      "width": 1920,
+      "width": 2080,
       "x": 0,
       "y": 0,
       "zOrder": 77,
@@ -855,7 +855,7 @@
       "name": "LosingScreenText",
       "persistentUuid": "2247ce46-3f65-4a48-bb91-01088d7e3128",
       "width": 1920,
-      "x": 0,
+      "x": 64,
       "y": 302,
       "zOrder": 78,
       "numberProperties": [],
@@ -872,7 +872,7 @@
       "name": "QuitButton",
       "persistentUuid": "87aef550-0c77-4394-9f9d-bb8e26173612",
       "width": 256,
-      "x": 800,
+      "x": 864,
       "y": 704,
       "zOrder": 79,
       "numberProperties": [],
@@ -889,8 +889,8 @@
       "name": "ReplayButton",
       "persistentUuid": "75233f5e-d8a4-4755-ba99-6b052b1ec00e",
       "width": 256,
-      "x": 800,
-      "y": 507,
+      "x": 864,
+      "y": 512,
       "zOrder": 80,
       "numberProperties": [],
       "stringProperties": [],
@@ -3203,7 +3203,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "NewSprite8",
+                  "image": "style-3-Green Apple.PNG",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3219,20 +3219,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 124,
+                        "y": 345
                       },
                       {
-                        "x": 512,
-                        "y": 0
+                        "x": 1122,
+                        "y": 345
                       },
                       {
-                        "x": 512,
-                        "y": 128
+                        "x": 1122,
+                        "y": 707
                       },
                       {
-                        "x": 0,
-                        "y": 128
+                        "x": 124,
+                        "y": 707
                       }
                     ]
                   ]
@@ -4703,6 +4703,39 @@
                 "Description"
               ]
             }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "BuiltinCommonInstructions::Once"
+          },
+          "parameters": []
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "PlayMusic"
+          },
+          "parameters": [
+            "",
+            "murder-mystery-spooky-midsomer-orchestral-instrumental-theme-147009.mp3",
+            "",
+            "20",
+            ""
           ]
         }
       ]
@@ -7317,7 +7350,7 @@
       "isLocked": false,
       "name": "SelectMurderer",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
@@ -7350,7 +7383,7 @@
       "isLocked": false,
       "name": "WinningScreen",
       "renderingType": "",
-      "visibility": false,
+      "visibility": true,
       "cameras": [],
       "effects": [
         {
